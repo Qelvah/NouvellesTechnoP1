@@ -2,8 +2,7 @@
   --color-container: #424211;
   --color-bg: #000000;
   --color-selection: #7a5a5a;
-  --color-text-base: #FFFFFF;
-
+  --color-text-base: #ffffff;
 }
 
 * {
@@ -11,10 +10,10 @@
 }
 
 .wrapper {
-  max-width: 1200px;    
-  margin: 0 auto;        
-  padding: 0 1rem; 
-  text-align: center;      
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+  text-align: center;
 }
 
 .header {
@@ -40,7 +39,7 @@
   width: 38%;
 }
 
-body  {
+body {
   background-color: var(--color-bg);
   color: var(--color-text-base);
 }
@@ -62,11 +61,11 @@ body  {
 .nav-main-li {
   padding: 3px 5px;
   border-radius: 1px;
-  border-style:ridge;
+  border-style: ridge;
   width: 25%;
 }
 
-.nav-main-li a{
+.nav-main-li a {
   display: block;
   height: 100%;
   width: 100%;
@@ -79,7 +78,7 @@ body  {
   background-color: var(--color-text-base);
 }
 
-.nav-main-li:hover a{
+.nav-main-li:hover a {
   color: var(--color-bg);
 }
 
@@ -95,7 +94,7 @@ body  {
 
   border-radius: 5px;
   border-style: dotted;
-  border-color: #FFFFFF;
+  border-color: #ffffff;
 
   text-align: left;
 }
@@ -118,7 +117,7 @@ form {
   max-width: 50%;
 }
 
-label{
+label {
   display: inline-block;
   width: 15%;
   margin-left: 13%;
@@ -141,4 +140,17 @@ input {
 
 footer {
   font-size: small;
+}
+
+.product_grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+}
+
+.product_grid div {
+  margin: auto;
+  text-align: center;
 }
