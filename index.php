@@ -1,7 +1,7 @@
 <?php require 'includes/header.php'; ?>
 
 <main>
-  Yessir
+  Ça marche
   <img class="img_center" src="assets/images/bienvenue.png" alt="">
 </main>
 
