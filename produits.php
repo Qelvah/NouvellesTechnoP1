@@ -1,5 +1,5 @@
 <?php require 'includes/header.php'; ?>
-
+    <!-- Test comment--->
     <main>
         <h1>Produits</h1>
         <div class="product_grid">
